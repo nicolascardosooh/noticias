@@ -1,0 +1,225 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c3c3c import !important;
+}
+
+body{
+    background-color: #7b54a0;
+}
+
+header
+{
+    min-height:4em;
+    background-color: rgb(16, 39, 65);
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white
+}
+
+a{
+    text-decoration: none;
+    color: inherit !important;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.detalhe{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+ 
+}
+
+.resultado{
+    font-size:1.5em;
+}
+
+.secao-extra{
+    border:1px solid #3c3c3c;
+    padding: 1em;
+    margin-bottom:1em;
+}
+
+.secao-extra span{
+    font-weight: bold;
+}
+
+.noticia-secao{
+    margin-bottom: 1em;
+}
+
+.outra-noticia{
+    margin-bottom: 4em;
+}
+
+#separador{
+    margin: 1em 0 1em 0;
+    border-bottom: 1px solid gray;
+}
+
+header{
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+#destaques{
+  
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+padding: 20px;
+
+
+
+}
+
+#maior{
+    margin-left: 40px;
+    width: 510px;
+    border-radius: 20px;
+}
+
+#menor1{
+
+
+margin-left: 8rem;
+border-radius: 20px;
+width: 280px;
+
+}
+
+#menor1img{
+    width: 280px;
+    height: 340px;
+}
+
+#menor2img{
+    width: 280px;
+    height: 340px;
+}
+
+
+#menor2{
+   
+    width: 280px;
+    margin-left: 2rem;
+    border-radius: 20px;
+   
+}
+
+.img-fluid{
+    border: 3px solid rgb(5, 5, 5);
+    border-radius: 20px;
+}
+
+
+/*parte2*/
+
+#outras-noticias{
+ margin-left: 50px;
+
+ width: 315px;
+ height: 530px;
+}
+
+#outra-noticia1{
+    
+}
+
+#outraimg1{
+    width: 315px;
+}
+
+#outraimg2{
+    width: 315px;
+}
+
+
+#outra-noticia2{
+   
+    margin-top: -30 px;
+}
+
+#esporte{
+
+display: grid;
+width: 900px;
+height: 250px;
+margin-top: -33rem;
+margin-left: 27rem;
+padding: 7px;
+border-radius: 15px;
+border: 2px solid black;
+}
+
+#esporte1{
+    margin-left: 13px;
+}
+
+#esporte2{
+    margin-left: 20rem;
+    margin-top: -12.0rem;
+}
+
+#esporte3{
+    margin-left: 40rem;
+    margin-top: -13.7rem;
+}
+
+.legenda{
+    color: rgb(8, 8, 8);
+    display: grid;
+    margin-left: 10px;
+}
+    
+#entretenimento{
+    grid-template-columns: 1fr 1fr 1fr;
+gap: 1px;
+width: 900px;
+height: 250px;
+margin-left: 27rem;
+margin-top: 2.7rem;
+border-radius: 20px;
+border: 2px solid black;
+
+}
+
+span{
+    color: black;
+}
+
+h4{
+    color: black;
+}
+
+.tituloesportes{
+margin-left: 15px;
+}
+
+
+
+    #entret2{
+     margin-top: -12.2rem;
+     margin-left: 19.3rem;
+    }
+
+    #entret3{
+        margin-top: -12.2rem;
+        margin-left: 38rem;
+    }
+
+#entretimg{
+    width: 230px;
+}
+
+.entretlegenda{
+    display: grid ;
+}
+
+.img-fluid:hover{
+    cursor: pointer;
+    border-color: white;
+
+    }
